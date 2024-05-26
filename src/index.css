@@ -1,0 +1,358 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.googleapis.com/css?family=Lato');
+}
+/* stylelint-disable */
+body {
+  font-family: 'Lato', sans-serif, Arial, Helvetica;
+  margin: 0;
+  top: 0;
+}
+/* stylelint-enable */
+
+ul {
+  list-style: none;
+}
+
+#dark {
+  background-color: #16181d;
+  color: #edeade;
+}
+
+#light {
+  background-color: #edeade;
+  color: #201f1f;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#section1 {
+  color: black;
+}
+
+.section {
+  height: 100vh;
+}
+
+.fp-section {
+  text-align: center;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: fixed;
+  isolation: isolate;
+  gap: 100px;
+  z-index: 2;
+  top: 130px;
+  margin-left: 5%;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.home-div {
+  height: 90vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  padding-top: 15%;
+}
+
+.border {
+  border-bottom: 2px solid;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.home-icon { 
+  width: 30px;
+  height: 30px;
+}
+
+.switch {
+  transform: rotate(-90deg);
+}
+
+.moon {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.sun {
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.about-me-container {
+  display: flex;
+  margin-right: 5%;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+
+.shot {
+  border-radius: 6px;
+}
+
+.about-me-paragraph {
+  width: 75%;
+  text-align: left;
+  padding-right: 125px;
+}
+
+.stack {
+  margin-top: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 11rem;
+  gap: 10px;
+}
+
+.stack-icon {
+  height: 45px;
+  width: 45px;
+}
+
+.slider {
+  border: 1px solid;
+  border-color: #16181d;
+  border-radius: 6px;
+}
+
+.slick-dots li button::before {
+  color: #ffff !important;
+}
+
+.projects-container {
+  margin: 0;
+  margin-top: 5%;
+  height: 90vh;
+  text-align: center;
+  position: relative;
+  margin-left: 22%;
+  margin-right: 17%;
+  padding: 0;
+  bottom: 0;
+}
+
+.projects-card {
+  background-color: #808080;
+  display: flex;
+  flex-direction: column;
+  height: 490px;
+  border-radius: 6px;
+}
+
+.project-card-footer {
+  background-color: #23272f;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-color: #16181d;
+  border-radius: 6px;
+  border-top: none;
+  padding-left: 75px;
+  padding-right: 75px;
+  gap: 20px;
+}
+
+.project-button {
+  background: linear-gradient(90deg, #ffa0ae 0%, #aacaef 75%);
+  color: inherit;
+  font-size: 15px;
+  border: none;
+  line-height: 45px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border-bottom: none;
+  outline: none;
+  box-shadow: 6px 4px 12px -6px rgba(0, 24, 40, 0.25);
+}
+
+.project-github-icon {
+  height: 100px;
+  width: 50px;
+  color: #ffff;
+}
+
+.project-title {
+  color: #ffff;
+  font-weight: normal;
+}
+
+.projects-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 6px;
+  filter: brightness(0.5);
+}
+
+.form-div {
+  height: 100vh;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-input-error {
+  border-color: #f00;
+}
+
+.form-error {
+  color: #f00;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  background: linear-gradient(90deg, #ffa0ae 0%, #aacaef 75%);
+  border: none;
+  color: inherit;
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border-bottom: none;
+  outline: none;
+  box-shadow: 6px 4px 12px -6px rgba(0, 24, 40, 0.25);
+}
+
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    display: none;
+  }
+
+  .about-me-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .stack {
+    margin: 0;
+    padding-top: 100px;
+  }
+
+  .stack-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .shot {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-me-paragraph {
+    width: 100%;
+    text-align: left;
+  }
+
+  .projects-container {
+    height: 100vh;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .project-card-footer {
+    justify-content: center;
+    gap: 10%;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-button {
+    width: 100px;
+    font-size: 13px;
+  }
+
+  .project-github-icon {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+  }
+
+  .form-div {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
